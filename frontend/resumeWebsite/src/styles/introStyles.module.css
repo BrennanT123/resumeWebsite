@@ -1,0 +1,48 @@
+.homepageHeroLetter {
+  color: rgb(109, 131, 255);
+  display: inline-block;
+  transition: transform 0.2s ease-out;
+}
+
+.homepageHeroLetter:hover {
+  transform: translateY(-10px);
+}
+
+.homepageHeroLetter.bouncing {
+  animation-name: bounce;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-10px);
+  }
+  40% {
+    transform: translateY(3px);
+  }
+  70% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.homepageHeroBody
+{
+    max-width: 600px ;
+    font-size: 1.5rem;
+    font-weight: 100;
+   
+}
+
+.homepageHero
+{
+    font-size: 5rem;
+    width: fit-content;
+     margin-bottom: 32px;
+
+}

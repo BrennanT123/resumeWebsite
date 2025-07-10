@@ -1,13 +1,13 @@
 .slideContent {
   width: 900px;
-  height: auto; 
+  height: 350px; 
   display: flex;
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem 6rem;
-  background-color: rgba(255, 214, 224, 0.637);
+  background-color: rgba(255, 214, 224, 0);
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); */
 }
 
 .carouselContainer {
@@ -28,7 +28,8 @@
   flex: 1;
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #333;
+  color: #000000;
+  font-weight: 500;
 }
 
 .slideTextBlock ul {

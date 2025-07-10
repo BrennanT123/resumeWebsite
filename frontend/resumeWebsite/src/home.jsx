@@ -13,21 +13,24 @@ function Home() {
   const [count, setCount] = useState(0);
 
   return (
-    <div id="websiteContainer">
-      <div id="noiseOverlay"> </div>
+    <>
+      {" "}
       <Navi></Navi>
-      <section id="home">
-        <HomepageHero></HomepageHero>
-      </section>
-      <section id="about">
-        <About></About>
-      </section>
-      <section id="projects">
-        <Projects></Projects>
-      </section>
-      <section id="resume">Resume content</section>
-      <section id="contact">Contact content</section>
-    </div>
+      <div id="websiteContainer">
+        <div id="noiseOverlay"> </div>
+        <section id="home">
+          <HomepageHero></HomepageHero>
+        </section>
+        <section id="about">
+          <About></About>
+        </section>
+        <section id="projects">
+          <Projects></Projects>
+        </section>
+        <section id="resume">Resume content</section>
+        <section id="contact">Contact content</section>
+      </div>
+    </>
   );
 }
 

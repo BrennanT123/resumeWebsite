@@ -42,6 +42,6 @@ export default function getGithubInfo(link) {
   return getInfo(newLink);
 }
 
-// getGithubInfo(`https://github.com/BrennanT123/InventoryApplication`)
-//   .then((info) => console.log(info))
-//   .catch((err) => console.error(err));
+getGithubInfo(`https://github.com/BrennanT123/wheresWaldo`)
+  .then((info) => console.log(info))
+  .catch((err) => console.error(err));

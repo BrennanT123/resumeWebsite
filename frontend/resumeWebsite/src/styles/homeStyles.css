@@ -1,7 +1,12 @@
 section {
-  height: 800px;
+  /* height: 800px; */
 }
 
+
+#home
+{
+  height: 800px;
+}
 #home {
   display: flex;
   align-items: center;
@@ -9,12 +14,21 @@ section {
   flex-direction: column;
 }
 
+#projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 #websiteContainer {
   position: relative;
   background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23d5ab, #23a6d5);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   overflow: hidden;
+  /* Margin top must be negative value of navi height */
+  margin-top: -87px; 
 }
 
 #noiseOverlay {

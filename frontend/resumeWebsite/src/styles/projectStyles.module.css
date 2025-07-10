@@ -1,0 +1,95 @@
+.projectContainer {
+  display: flex;
+  width: 66vw;
+  margin: 2rem;
+  gap: 2rem;
+  background-color: rgba(128, 128, 128, 0);
+  border-radius: 2rem;
+  padding: 1rem;
+
+  opacity: 0;
+  transform: translateX(-1000px);
+  transition: transform 0.5s ease-out, opacity 1s ease-out;
+
+  /* 
+  animation-name: moveProject;
+  animation-duration: 1ms;
+  animation-direction: alternate;
+  animation-timeline: scroll(block nearest); */
+}
+
+/* @keyframes moveProject {
+  from {
+    transform: translateX(-5000px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+} */
+
+.slideIn {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.infoContainer {
+  width: 50%;
+  align-content: center;
+}
+
+.projectImg {
+  width: 100%;
+  height: auto;
+
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.projectLink {
+  width: 50%;
+  text-decoration: none;
+  color: black;
+}
+.projectImg:hover {
+  transform: scale(1.1);
+}
+.projectTitle {
+}
+
+.imageContainer {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.projectReadme {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.githubLinkImage {
+  height: 2rem;
+  width: auto;
+}
+
+.projectTag {
+  width: 10rem;
+  background-color: rgba(177, 177, 255, 0.384);
+  border-radius: 1rem;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 10rem);
+  gap: 1rem;
+  margin: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.supplemental {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

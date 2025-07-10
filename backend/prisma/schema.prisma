@@ -19,6 +19,8 @@ model Projects {
   githubLink  String
   previewLink String?
   media       String?
+  title       String?
+  readMe      String?
   tags        TagsOnProjects[]
 }
 

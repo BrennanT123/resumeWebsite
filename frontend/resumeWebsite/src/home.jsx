@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "../src/app.css";
 import Navi from "./assets/navi.jsx";
 // import homeStyles from "./styles/homeStyles.module.css"

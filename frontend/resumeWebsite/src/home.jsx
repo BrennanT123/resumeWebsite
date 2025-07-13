@@ -8,9 +8,11 @@ import Projects from "./assets/projects.jsx";
 import HomepageHero from "./assets/homepageHero.jsx";
 import "./styles/homeStyles.css";
 import About from "./assets/about.jsx";
+import ContactMe from "./assets/contact.jsx";
+import Resume from "./assets/resume.jsx";
+import AboutSkills from "./assets/aboutSkills.jsx";
 
 function Home() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -22,13 +24,16 @@ function Home() {
           <HomepageHero></HomepageHero>
         </section>
         <section id="about">
-          <About></About>
+          <div id= "aboutTimeline">
+            <About></About>
+          </div>
+          <div id="aboutSkills"><AboutSkills></AboutSkills></div>
         </section>
         <section id="projects">
           <Projects></Projects>
         </section>
-        <section id="resume">Resume content</section>
-        <section id="contact">Contact content</section>
+        {/* <section id="resume"><Resume></Resume></section> */}
+        <section id="contact"><ContactMe></ContactMe></section>
       </div>
     </>
   );

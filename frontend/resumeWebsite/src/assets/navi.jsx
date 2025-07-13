@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import naviStyles from "../styles/naviStyles.module.css";
 
-const sections = ["home", "about", "projects", "resume", "contact"];
+const sections = ["home", "about", "projects", "contact"];
 
 function Navi() {
   const [active, setActive] = useState("home");

@@ -1,0 +1,38 @@
+.linkedInImg,
+.githubImg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.linkedInImg:hover,
+.githubImg:hover {
+  color: rgb(161, 161, 238);
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.contactContainer a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.contactContainer h1 {
+  font-size: 3rem;
+}
+.links {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.email, .contactHeader, .contactSummary {
+  color: white;
+}

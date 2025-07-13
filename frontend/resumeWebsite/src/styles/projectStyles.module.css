@@ -10,6 +10,12 @@
   opacity: 0;
   transform: translateX(-1000px);
   transition: transform 0.5s ease-out, opacity 1s ease-out;
+    background: linear-gradient(
+    to right,
+    rgba(248, 249, 250, 0.507),
+    rgba(234, 234, 234, 0.589)
+  );
+  border-radius: 2rem;
 
   /* 
   animation-name: moveProject;

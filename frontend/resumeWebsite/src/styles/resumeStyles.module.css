@@ -1,0 +1,46 @@
+.resumeContainer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(248, 249, 250, 0.507),
+    rgba(234, 234, 234, 0.589)
+  );
+  width: 100%;
+  opacity: 0;
+  margin: 0 auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: opacity 2s ease-out;
+}
+
+.resumeContainer a {
+  width: fit-content;
+  height: auto;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.resumeContainer a img {
+  transition: transform 0.5s;
+}
+.resumeContainer a img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .resumeContainer {
+    width: 100vw;
+  }
+
+  .resumeContainer a {
+    width: 100%;
+  }
+}

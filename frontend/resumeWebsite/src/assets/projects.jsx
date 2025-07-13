@@ -69,7 +69,6 @@ function Projects() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            console.log("Intersecting:", entry.target);
             entry.target.classList.add(projectStyles.slideIn);
           } else {
             entry.target.classList.remove(projectStyles.slideIn);
@@ -86,6 +85,7 @@ function Projects() {
 
   return (
     <div>
+        <h1>Projects</h1>
       {projects &&
         projects.map((project) => {
           return (

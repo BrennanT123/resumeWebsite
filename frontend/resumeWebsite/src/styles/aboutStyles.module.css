@@ -12,7 +12,7 @@
 
 .carouselContainer {
   width: 900px;
-  height: 400px;
+  height: fit-content;
   display: inline-block;
 }
 
@@ -45,4 +45,10 @@
 .slideTextBlock li::marker {
   color: #d72638; 
   font-size: 1.2rem;
+}
+
+.overview
+{
+ display: block; 
+   height: 350px; 
 }

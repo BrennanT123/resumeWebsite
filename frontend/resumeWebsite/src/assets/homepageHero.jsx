@@ -39,8 +39,8 @@ function HomepageHero() {
           })}
       </h1>
       <div className={introStyles.homepageHeroBody}>
-        I'm an engineer who thrives in fast-paced, demanding environments. I
-        combine passion for learning with strong problem-solving skills to build
+        I'm an <b>engineer</b> who thrives in <b>fast-paced</b>, <b>techincal</b> environments . I
+        combine <b>passion for learning</b> with strong <b>problem-solving skills</b> to build
         creative, impactful solutions across design and development.
       </div>
     </>

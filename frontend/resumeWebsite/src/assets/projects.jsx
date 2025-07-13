@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import projectStyles from "../styles/projectStyles.module.css";
-import axios from "axios";
+// import axios from "axios";
 // import getGithubInfo from "../lib/githubFunctions";
 import { Link } from "react-router-dom";
 import { projects } from "../lib/projectsSetup";

@@ -1,0 +1,14 @@
+<svg width="100" height="90" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bt {
+        font-family: 'Arial Black', sans-serif;
+        font-weight: bold;
+        font-size: 80px;
+      }
+    </style>
+  </defs>
+
+  <text x="0" y="75" class="bt" fill="#1e90ff" opacity="0.85">B</text>
+  <text x="35" y="75" class="bt" fill="#005faf" opacity="0.85">T</text>
+</svg>

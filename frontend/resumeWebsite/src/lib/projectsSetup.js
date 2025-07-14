@@ -50,9 +50,9 @@ const resumeWebsite = {
     githubLink: "https://github.com/BrennanT123/resumeWebsite",
     previewLink: "brennanturi-production.up.railway.app",
     title: "Resume Website",
-    readMe: "I made this website to display all the progress I have made in the last year for app development. Features include CSS animations, a carousel, and data display/organization.",
+    readMe: "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to use it to display all of my skills and use it as a tool to catalog my jounrney.",
     media: "/resumeWebsite.png",
-    tags: ["React","CSS","Flexbox","Grid", "CSS animations", "Bootstrap", "Mobile Friendly"]
+    tags: ["React","CSS","Canvas","CSS animations", "Bootstrap", "Mobile Friendly"]
 }
 /*
 const template = {

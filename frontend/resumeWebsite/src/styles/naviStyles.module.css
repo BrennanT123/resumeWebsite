@@ -22,6 +22,9 @@
   .navBarCondensed {
     display: none;
   }
+  .navButton {
+    color: rgb(255, 255, 255);
+  }
 }
 @media (max-width: 999px) {
   .spreadNavi {
@@ -49,7 +52,7 @@
   font-size: 18px;
   border: none;
   background: none;
-  color: rgb(255, 255, 255);
+
   text-decoration: none;
   display: flex;
   flex-direction: column;

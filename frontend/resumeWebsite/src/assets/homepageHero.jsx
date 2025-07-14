@@ -1,6 +1,9 @@
 import introStyles from "../styles/introStyles.module.css";
 
+import { useRef } from "react";
 function HomepageHero() {
+
+
   const opener = ", I'm Brennan";
 
   const handleMouseLeave = (e) => {
@@ -17,7 +20,7 @@ function HomepageHero() {
   };
 
   return (
-    <>
+    <div className={introStyles.homepageHeroContainer}>
       <h1 className={introStyles.homepageHero}>
         <span
           className={introStyles.homepageHeroLetter}
@@ -39,11 +42,12 @@ function HomepageHero() {
           })}
       </h1>
       <div className={introStyles.homepageHeroBody}>
-        I'm an <b>engineer</b> who thrives in <b>fast-paced</b>, <b>techincal</b> environments . I
-        combine <b>passion for learning</b> with strong <b>problem-solving skills</b> to build
-        creative, impactful solutions across design and development.
+        I'm an <b>engineer</b> who thrives in <b>fast-paced</b>,{" "}
+        <b>techincal</b> environments . I combine <b>passion for learning</b>{" "}
+        with strong <b>problem-solving skills</b> to build creative, impactful
+        solutions across design and development.
       </div>
-    </>
+    </div>
   );
 }
 

@@ -52,7 +52,7 @@ const resumeWebsite = {
     title: "Resume Website",
     readMe: "I made this website to display all the progress I have made in the last year for app development. Features include CSS animations, a carousel, and data display/organization.",
     media: "/resumeWebsite.png",
-    tags: ["React","CSS","Flexbox","Grid", "CSS animations", "Bootstrap"]
+    tags: ["React","CSS","Flexbox","Grid", "CSS animations", "Bootstrap", "Mobile Friendly"]
 }
 /*
 const template = {

@@ -6,7 +6,7 @@ function About() {
     <>
       <h1>About Me</h1>
       <div className={aboutStyles.carouselContainer}>
-        <Carousel>
+        <Carousel className={aboutStyles.aboutCarousel}>
           <Carousel.Item interval={5000}>
             <div className={aboutStyles.slideContent}>
 

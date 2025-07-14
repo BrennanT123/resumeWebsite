@@ -30,19 +30,23 @@
   }
 }
 
-
-.homepageHeroBody
-{
-    max-width: 600px ;
-    font-size: 1.5rem;
-    font-weight: 100;
-   
+.homepageHeroBody {
+  max-width: 600px;
+  font-size: 1.5rem;
+  font-weight: 100;
+ z-index: 3;
+ 
 }
 
-.homepageHero
+.homepageHero {
+  font-size: 5rem;
+  width: fit-content;
+  margin-bottom: 32px;
+  z-index: 3;
+}
+
+.homepageHeroContainer
 {
-    font-size: 5rem;
-    width: fit-content;
-     margin-bottom: 32px;
+  z-index: 3;
 
 }

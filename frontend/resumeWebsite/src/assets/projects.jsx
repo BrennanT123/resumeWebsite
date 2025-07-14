@@ -69,6 +69,8 @@ function Projects() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            console.log(` ${entry.target.id} is active`);
+    
             entry.target.classList.add(projectStyles.slideIn);
           } else {
             entry.target.classList.remove(projectStyles.slideIn);

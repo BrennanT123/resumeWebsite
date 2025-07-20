@@ -12,17 +12,25 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .skillsContainer li {
+clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 10% 100%, 0 65%);
+background-color:rgba(0, 143, 140);
+
   /* background: rgb(240, 244, 255); */
   padding: 6px 12px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   font-size: 0.95rem;
-  color: rgb(255, 255, 255);
+  color:rgba(2, 53, 53);
   display: inline-block;
   /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05); */
   margin: 4px;
   text-align: left;
 }
 
+.skillsContainer li:hover 
+{
+  background-color: rgba(15, 194, 192);
+  color: rgba(2, 53, 53);
+}
 
 .skillsContainer {
   padding: 2rem;
@@ -32,7 +40,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.788);
+  /* background-color:rgba(12, 171, 168, 1); */
+  /* background-image: linear-gradient(rgba(12, 171, 168, 0), rgba(12, 171, 168, 1), rgba(12, 171, 168, 0)); */
 }
 
 .skillsIntro {
@@ -53,7 +62,7 @@
 .skillsSection {
   /* background: linear-gradient(to right, rgb(248, 250, 255), rgb(237, 243, 255)); */
   padding: 1.5rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   border-radius: 16px;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); */
   min-width: 400px;
@@ -64,9 +73,9 @@
 .allSkillsSections h3 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  border-left: 4px solid rgb(70, 130, 244);
+  border-left: 4px solid rgba(2, 53, 53);
   padding-left: 0.75rem;
-  color: rgb(255, 255, 255);
+  color: rgba(2, 53, 53);
   text-align: left;
 }
 
@@ -88,7 +97,6 @@
 .allSkillsSections {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   width: 100%;
   flex-grow: 1;
   padding: 0 20%;

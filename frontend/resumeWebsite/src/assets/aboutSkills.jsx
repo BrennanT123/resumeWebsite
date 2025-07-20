@@ -28,15 +28,15 @@ function AboutSkills() {
                 <li>Node.js</li>
                 <li>SQL</li>
                 <li>React</li>
-                <li>PostgreSQL</li>
-                <li>Vite</li>
+                {/* <li>PostgreSQL</li> */}
+                {/* <li>Vite</li> */}
                 <li>Express.js</li>
                 <li>Prisma ORM</li>
-                <li>JWT Auth</li>
+                {/* <li>JWT Auth</li> */}
                 <li>Jest / Testing</li>
-                <li>Axios</li>
+                {/* <li>Axios</li> */}
                 {/* <li>Session & Cookie Management</li> */}
-                <li>Deployment: Railway, Render, Netlify, etc...</li>
+                {/* <li>Deployment: Railway, Render, Netlify, etc...</li> */}
               </ul>
             </div>
             <div className={aboutSkillsStyles.skillsSection}>
@@ -51,12 +51,12 @@ function AboutSkills() {
                 <li>MATLAB</li>
                 <li>TensorFlow</li>
                 <li>PyTorch</li>
-                <li>Neural networks</li>
+                {/* <li>Neural networks</li> */}
                 <li>ROS</li>
-                <li>Arduino/ESP32/etc...</li>
+                <li>Microcontrollers</li>
                 <li>Raspberry Pi</li>
                 {/* <li>Serial Communication Protocols</li> */}
-                <li>VSCode</li>
+                {/* <li>VSCode</li> */}
               </ul>
             </div>
           </div>
@@ -68,13 +68,13 @@ function AboutSkills() {
               <li>R&D</li>
               <li>Root Cause Analysis</li>
               <li>Risk Analysis</li>
-              <li>Cross functional collaboration</li>
-              <li>Technical Communication</li>
+              {/* <li>Cross functional collaboration</li> */}
+              {/* <li>Technical Communication</li> */}
               <li>Cost tracking/Analysis</li>
               <li>Six Sigma</li>
               <li>Kaizen</li>
-              <li>Continuous Improvement</li>
-              <li>BOM management</li>
+              {/* <li>Continuous Improvement</li> */}
+              {/* <li>BOM management</li> */}
               <li>CATIA</li>
               <li>3DExperience</li>
               <li>CAE</li>

@@ -16,19 +16,25 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: linear-gradient(rgba(12, 171, 168, 1),
+    rgba(12, 171, 168, 0));
 }
 
 #about {
   padding-top: 1rem;
-  background: linear-gradient(
-    to right,
+  /* background: linear-gradient(
     rgba(248, 249, 250, 0.507),
-    rgba(234, 234, 234, 0.589)
+    rgba(234, 234, 234, 0)
+  ); */
+  background-image: linear-gradient(
+    rgba(248, 249, 250, 0),
+    rgba(12, 171, 168, 1),
+    rgba(12, 171, 168, 1)
   );
 }
 #aboutTimeline,
 #aboutSkills {
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
 }
 
 #websiteContainer {
@@ -59,7 +65,7 @@ section {
   bottom: 0;
   background-image: url("/noisy.png");
   background-repeat: repeat;
-  opacity: .25;
+  opacity: 0.25;
   pointer-events: none;
   z-index: 0;
 }
@@ -82,6 +88,20 @@ section {
   height: fit-content;
   overflow: hidden;
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.432);
- 
 }
+.topSection {
+  background-color: rgba(255, 255, 255, 0.432);
+}
+/* 
+.homeBuffer {
+  background-image: linear-gradient(
+    rgba(248, 249, 250, 0),
+    rgb(248, 249, 250),
+    rgb(248, 249, 250),
+    rgb(248, 249, 250),
+    rgba(248, 249, 250, 0)
+  );
+  z-index: 3;
+  height: 100px;
+  width: 100%;
+} */

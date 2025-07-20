@@ -28,20 +28,23 @@ function Home() {
       <Navi></Navi>
       <div id="websiteContainer" onMouseMove={handleMouseMove}>
         <div id="noiseOverlay"> </div>
-        <div ref={containerRef} className="homeOverContainer">
-          <Canvas containerRef={containerRef} mouseRef={mouseRef}></Canvas>
-          <section id="home">
-            <HomepageHero></HomepageHero>
+        <div className="topSection">
+          <div ref={containerRef} className="homeOverContainer">
+            <Canvas containerRef={containerRef} mouseRef={mouseRef}></Canvas>
+            <section id="home">
+              <HomepageHero></HomepageHero>
+            </section>
+            <div className="homeBuffer"></div>
+          </div>
+          <section id="about">
+            <div id="aboutTimeline">
+              <About></About>
+            </div>
+            <div id="aboutSkills">
+              <AboutSkills></AboutSkills>
+            </div>
           </section>
         </div>
-        <section id="about">
-          <div id="aboutTimeline">
-            <About></About>
-          </div>
-          <div id="aboutSkills">
-            <AboutSkills></AboutSkills>
-          </div>
-        </section>
         <section id="projects">
           <Projects></Projects>
         </section>

@@ -72,7 +72,7 @@ function About() {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item interval={5000}>
+          {/* <Carousel.Item interval={5000}>
             <div className={aboutStyles.slideContent}>
               <img
                 className={aboutStyles.collegeSlideImg}
@@ -90,7 +90,7 @@ function About() {
                 </p>
               </div>
             </div>
-          </Carousel.Item>
+          </Carousel.Item> */}
         </Carousel>
       </div>
     </>

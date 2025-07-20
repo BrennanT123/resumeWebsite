@@ -1,5 +1,5 @@
 const InventoryApplication = {
-  id: 1,
+  id: 2,
   githubLink: "https://github.com/BrennanT123/InventoryApplication",
   previewLink: "https://inventoryapplication-production-909d.up.railway.app/",
   media:
@@ -13,7 +13,7 @@ const InventoryApplication = {
 };
 
 const blogAPI = {
-  id: 2,
+  id: 3,
   githubLink: "https://github.com/BrennanT123/blogAPI",
   previewLink: "https://frontend-production-c81e.up.railway.app/",
   media:
@@ -21,8 +21,7 @@ const blogAPI = {
   title: "Blog API",
   readMe:
     "\n" +
-    "This is an api I made for blogs. Features include authenticaiton using JWT, session tracking, account creation, ability to create, edit, delete, and hide posts, and the ability to make comments as both a verified user and a guest user. \n"+
-   
+    "This is an api I made for blogs. Features include authenticaiton using JWT, session tracking, account creation, ability to create, edit, delete, and hide posts, and the ability to make comments as both a verified user and a guest user. The preview links to a rough implementation of the api.\n" +
     "\n Here are the test credentials for the blog owner:\n" +
     "\n" +
     "email: blogOwner@fakeemail.com\n" +
@@ -31,7 +30,7 @@ const blogAPI = {
 };
 
 const wheresWaldo = {
-  id: 3,
+  id: 1,
   githubLink: "https://github.com/BrennanT123/wheresWaldo",
   previewLink:
     "https://fortunate-reprieve-production-2b89.up.railway.app/selectScene",
@@ -44,16 +43,34 @@ const wheresWaldo = {
   tags: ["node-js", "Express", "React", "Prisma", "Jest", "Supertest"],
 };
 
-
 const resumeWebsite = {
-    id: 4,
-    githubLink: "https://github.com/BrennanT123/resumeWebsite",
-    previewLink: "brennanturi-production.up.railway.app",
-    title: "Resume Website",
-    readMe: "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to use it to display all of my skills and use it as a tool to catalog my jounrney.",
-    media: "/resumeWebsite.png",
-    tags: ["React","CSS","Canvas","CSS animations", "Bootstrap", "Mobile Friendly"]
-}
+  id: 4,
+  githubLink: "https://github.com/BrennanT123/resumeWebsite",
+  previewLink: "https://brennanturi-production.up.railway.app",
+  title: "Resume Website",
+  readMe:
+    "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to expand it to display all my achievements beyond just app development.",
+  media: "/resumeWebsite.png",
+  tags: [
+    "React",
+    "CSS",
+    "Canvas",
+    "CSS animations",
+    "Bootstrap",
+    "Mobile Friendly",
+  ],
+};
+
+const rubiksCubeSolver = {
+  id: 5,
+  githubLink: "https://github.com/BrennanT123/CubeSolver.git",
+  previewLink: null,
+  title: "Rubiks Cube Solver",
+  readMe:
+    "This is a Rubiks Cube Solver that I made using Kociemba's algorithm. It utilizes an arduino to control stepper motors that turn the cube. The user can use a keypad to scramble the cube. The state is then sent to a python script that uses Kociemba's algorithm to find the solution. The solution is then sent back to the arduino which turns the motors to solve the cube.",
+  media: "/rubiks_cube_solver.png",
+  tags: ["Arduino", "Python", "C++", "Data Structures", "Algorithms"],
+};
 /*
 const template = {
     id: 
@@ -66,4 +83,10 @@ const template = {
 }
 
 */
-export const projects = [InventoryApplication, blogAPI, wheresWaldo, resumeWebsite];
+export const projects = [
+  wheresWaldo,
+  InventoryApplication,
+  blogAPI,
+  resumeWebsite,
+  rubiksCubeSolver,
+];

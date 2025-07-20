@@ -22,10 +22,6 @@ section {
 
 #about {
   padding-top: 1rem;
-  /* background: linear-gradient(
-    rgba(248, 249, 250, 0.507),
-    rgba(234, 234, 234, 0)
-  ); */
   background-image: linear-gradient(
     rgba(248, 249, 250, 0),
     rgba(12, 171, 168, 1),
@@ -92,16 +88,3 @@ section {
 .topSection {
   background-color: rgba(255, 255, 255, 0.432);
 }
-/* 
-.homeBuffer {
-  background-image: linear-gradient(
-    rgba(248, 249, 250, 0),
-    rgb(248, 249, 250),
-    rgb(248, 249, 250),
-    rgb(248, 249, 250),
-    rgba(248, 249, 250, 0)
-  );
-  z-index: 3;
-  height: 100px;
-  width: 100%;
-} */

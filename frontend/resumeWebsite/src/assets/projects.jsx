@@ -92,7 +92,7 @@ function Projects() {
       {projects &&
         projects.map((project) => {
           {
-            if (project.id === 0)
+            if (project.id === 1)
               return (
                 <div
                   key={project.id}

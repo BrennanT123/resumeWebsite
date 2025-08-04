@@ -84,9 +84,9 @@ const template = {
 
 */
 export const projects = [
+  rubiksCubeSolver,
   wheresWaldo,
   InventoryApplication,
   blogAPI,
   resumeWebsite,
-  rubiksCubeSolver,
 ];

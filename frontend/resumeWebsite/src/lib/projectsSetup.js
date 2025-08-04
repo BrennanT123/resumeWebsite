@@ -1,5 +1,5 @@
 const InventoryApplication = {
-  id: 2,
+  id: 3,
   githubLink: "https://github.com/BrennanT123/InventoryApplication",
   previewLink: "https://inventoryapplication-production-909d.up.railway.app/",
   media:
@@ -13,7 +13,7 @@ const InventoryApplication = {
 };
 
 const blogAPI = {
-  id: 3,
+  id: 4,
   githubLink: "https://github.com/BrennanT123/blogAPI",
   previewLink: "https://frontend-production-c81e.up.railway.app/",
   media:
@@ -30,7 +30,7 @@ const blogAPI = {
 };
 
 const wheresWaldo = {
-  id: 1,
+  id: 2,
   githubLink: "https://github.com/BrennanT123/wheresWaldo",
   previewLink:
     "https://fortunate-reprieve-production-2b89.up.railway.app/selectScene",
@@ -44,7 +44,7 @@ const wheresWaldo = {
 };
 
 const resumeWebsite = {
-  id: 4,
+  id: 5,
   githubLink: "https://github.com/BrennanT123/resumeWebsite",
   previewLink: "https://brennanturi-production.up.railway.app",
   title: "Resume Website",
@@ -62,7 +62,7 @@ const resumeWebsite = {
 };
 
 const rubiksCubeSolver = {
-  id: 5,
+  id: 1,
   githubLink: "https://github.com/BrennanT123/CubeSolver.git",
   previewLink: null,
   title: "Rubiks Cube Solver",

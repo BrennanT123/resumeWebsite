@@ -8,7 +8,7 @@ const InventoryApplication = {
   readMe:
     "\n" +
     "An inventory application that I made to help keep track of my rubiks cube collection. Features includes being able to add new cubes, update/delete cubes, filter by brand, and custom search. " +
-    "\n",
+    "\n This app was made for chrome.",
   tags: ["node-js", "Express", "PostgreSQL", "ejs"],
 };
 
@@ -25,7 +25,8 @@ const blogAPI = {
     "\n Here are the test credentials for the blog owner:\n" +
     "\n" +
     "email: blogOwner@fakeemail.com\n" +
-    'password: :,"4zTMW^"v3gsL\n',
+    'password: :,"4zTMW^"v3gsL\n' +
+    "\n This app was made for chrome.",
   tags: ["node-js", "Express", "PostgreSQL", "JWT", "Prisma", "React"],
 };
 
@@ -37,7 +38,7 @@ const wheresWaldo = {
   title: "Wheres Waldo?",
   readMe:
     "\n" +
-    'This is a charcter finding game similar to the common childrens book "Wheres Waldo". This game includes score tracking, leaderboards, session tracking, guess logic, and more.',
+    'This is a charcter finding game similar to the common childrens book "Wheres Waldo". This game includes score tracking, leaderboards, session tracking, guess logic, and more. \n \n This app was made for chrome.',
   media:
     "https://res.cloudinary.com/dgngynk3j/image/upload/v1751394940/Screenshot_from_2025-07-01_14-35-19_gbn1rp.png",
   tags: ["node-js", "Express", "React", "Prisma", "Jest", "Supertest"],
@@ -49,7 +50,7 @@ const resumeWebsite = {
   previewLink: "https://brennanturi-production.up.railway.app",
   title: "Resume Website",
   readMe:
-    "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to expand it to display all my achievements beyond just app development.",
+    "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to expand it to display all my achievements beyond just app development. \n This app was made for chrome.",
   media: "/resumeWebsite.png",
   tags: [
     "React",
@@ -57,7 +58,6 @@ const resumeWebsite = {
     "Canvas",
     "CSS animations",
     "Bootstrap",
-    "Mobile Friendly",
   ],
 };
 
@@ -71,6 +71,16 @@ const rubiksCubeSolver = {
   media: "/rubiks_cube_solver.png",
   tags: ["Arduino", "Python", "C++", "Data Structures", "Algorithms"],
 };
+
+const rubiksCubeTimer = {
+    id: 6,
+    githubLink: "https://github.com/BrennanT123/cubeTimer/tree/main",
+    previewLink: "https://cubetimer.up.railway.app/",
+    title: "Rubiks Cube Timer",
+    readMe: "This is a timer that I made for tracking how fast I can solve a rubiks cube. It uses sessions to track individual users solve time. I include a paginated table, a chart, and a totals/averages section to help analyze the data. This project utilizes React for the frontend, express for the backened, and postgresql for the database. \n \n The app seeds each session with data to help get an understanding of how it works. \n \n This app was made for chrome.",
+    media: "/cubeTimer.png",
+    tags: ["React", "Canvas", "Bootstrap", "Mobile Friendly", "Data vizualization", "Data analysis"],
+}
 /*
 const template = {
     id: 
@@ -85,6 +95,7 @@ const template = {
 */
 export const projects = [
   rubiksCubeSolver,
+  rubiksCubeTimer,
   wheresWaldo,
   InventoryApplication,
   blogAPI,

@@ -12,22 +12,22 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .skillsContainer li {
-clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 10% 100%, 0 65%);
-background-color:rgba(0, 143, 140);
+  clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 10% 100%, 0 65%);
+  background-color: rgba(0, 143, 140);
 
   /* background: rgb(240, 244, 255); */
   padding: 6px 12px;
   /* border-radius: 20px; */
   font-size: 0.95rem;
-  color:rgba(2, 53, 53);
+  color: rgba(2, 53, 53);
   display: inline-block;
   /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05); */
   margin: 4px;
   text-align: left;
+  width: 200px;
 }
 
-.skillsContainer li:hover 
-{
+.skillsContainer li:hover {
   background-color: rgba(15, 194, 192);
   color: rgba(2, 53, 53);
 }
@@ -84,6 +84,7 @@ background-color:rgba(0, 143, 140);
     padding: 1rem;
   }
 
+
   .appDev,
   .other,
   ul {
@@ -105,7 +106,7 @@ background-color:rgba(0, 143, 140);
 
 .codingSkillsSection {
   display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
   gap: 2rem;
   width: 100%;

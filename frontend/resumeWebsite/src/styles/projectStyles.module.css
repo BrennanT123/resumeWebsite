@@ -3,7 +3,8 @@
 
   display: flex;
   width: 66vw;
-  margin: 2rem;
+  height: 100%;
+
   gap: 2rem;
   background-color: rgba(128, 128, 128, 0);
   padding: 5rem 10% 5rem 5rem;
@@ -13,18 +14,17 @@
     rgba(234, 234, 234, 0.589)
   );
   clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 2% 50%, 0% 0%);
-    opacity: 0;
-    transform: translateX(-10000px);
-    transition: transform 0.5s ease-out, opacity 1s ease-out;
-
+  opacity: 0;
+  transform: translateX(-10000px);
+  transition: transform 0.5s ease-out, opacity 1s ease-out;
 }
 .projectsContainer {
   height: fit-content;
   display: grid;
   place-items: center;
   position: relative;
+  margin: 2rem;
 }
-
 
 @media (max-width: 1300px) {
   .projectContainer {

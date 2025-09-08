@@ -27,6 +27,7 @@ function AboutSkills() {
                 <li>JavaScript</li>
                 <li>Node.js</li>
                 <li>SQL</li>
+                <li>PostgreSQL</li>
                 <li>React</li>
                 {/* <li>PostgreSQL</li> */}
                 {/* <li>Vite</li> */}
@@ -60,42 +61,42 @@ function AboutSkills() {
               </ul>
             </div>
           </div>
-
+{/* 
           <div className={aboutSkillsStyles.skillsSection}>
-            <h3>Other Engineering Skills</h3>
-            <ul className={aboutSkillsStyles.otherEng}>
+            <h3>Other Engineering Skills</h3> */}
+            {/* <ul className={aboutSkillsStyles.otherEng}>
               <li>Lean engineering</li>
               <li>R&D</li>
               <li>Root Cause Analysis</li>
-              <li>Risk Analysis</li>
+              <li>Risk Analysis</li> */}
               {/* <li>Cross functional collaboration</li> */}
               {/* <li>Technical Communication</li> */}
-              <li>Cost tracking/Analysis</li>
+              {/* <li>Cost tracking/Analysis</li>
               <li>Six Sigma</li>
-              <li>Kaizen</li>
+              <li>Kaizen</li> */}
               {/* <li>Continuous Improvement</li> */}
               {/* <li>BOM management</li> */}
-              <li>CATIA</li>
+              {/* <li>CATIA</li>
               <li>3DExperience</li>
               <li>CAE</li>
               <li>FEA</li>
-              <li>ANSYS</li>
+              <li>ANSYS</li> */}
               {/* <li>Maru Batsu (Decision Matrices)</li> */}
               {/* <li>Gemba walks</li> */}
               {/* <li>Maru Hatsu (Prototype evaluation)</li> */}
               {/* <li>Poka-Yoke (Mistake proofing) </li> */}
               {/* <li>Kanban</li> */}
               {/* <li>Yokoten</li> */}
-
+{/* 
               <li>Solidworks</li>
-              <li>COMSOL</li>
+              <li>COMSOL</li> */}
 
               {/* <li>Piezoelectrics</li> */}
-              <li>3D printing</li>
-              <li>LabVIEW</li>
+              {/* <li>3D printing</li>
+              <li>LabVIEW</li> */}
               {/* <li>DAQ</li> */}
-            </ul>
-          </div>
+            {/* </ul> */}
+          {/* </div> */}
         </div>
       </div>
     </>

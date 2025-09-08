@@ -1,42 +1,35 @@
 .projectContainer {
+  grid-area: 1 / 1;
+
   display: flex;
-  
   width: 66vw;
   margin: 2rem;
   gap: 2rem;
   background-color: rgba(128, 128, 128, 0);
-  /* border-radius: 2rem; */
   padding: 5rem;
-
   background: linear-gradient(
     to right,
     rgba(248, 249, 250, 0.507),
     rgba(234, 234, 234, 0.589)
   );
-  /* border-radius: 2rem; */
-  /* clip-path: polygon(0 0, 90% 0, 100% 15%, 100% 100%, 10% 100%, 0 65%); */
   clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 2% 50%, 0% 0%);
-}
-
-@media (min-width: 1350px) {
-  .projectContainer {
     opacity: 0;
-    transform: translateX(-1000px);
+    transform: translateX(-10000px);
     transition: transform 0.5s ease-out, opacity 1s ease-out;
 
-    /* 
-  animation-name: moveProject;
-  animation-duration: 1ms;
-  animation-direction: alternate;
-  animation-timeline: scroll(block nearest); */
-  }
+}
+.projectsContainer {
+  height: fit-content;
+  display: grid;
+  place-items: center;
+  position: relative;
 }
 
-@media (max-width: 600px)
-{
-  .projectContainer
-  {
+
+@media (max-width: 1300px) {
+  .projectContainer {
     flex-direction: column;
+    align-items: center;
   }
 }
 /* @keyframes moveProject {
@@ -54,7 +47,7 @@
 }
 
 .infoContainer {
-  width: 50%;
+  max-width: 500px;
   align-content: center;
 }
 
@@ -80,6 +73,7 @@
 .imageContainer {
   border-radius: 2rem;
   overflow: hidden;
+  width: 100%;
 }
 
 .projectReadme {
@@ -126,7 +120,7 @@
   border-radius: 2rem;
 }
 .videoContainer {
-  width: 33%;
+  width: 365px;
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -136,8 +130,33 @@
   height: 100%;
   border-radius: 2rem;
 }
-.projectLink
-{
+.projectLink {
+  width: 100%;
   align-content: center;
   align-items: center;
+}
+
+.activeProjectButton {
+  background-color: rgba(161, 161, 238, 0.384);
+  border-radius: 1rem;
+}
+
+.projectButton:hover {
+  cursor: pointer;
+  background-color: rgba(161, 161, 238, 0.384);
+  box-shadow: 0 0 16px 4px rgba(161, 161, 238, 0.7),
+    0 0 32px 8px rgba(161, 161, 238, 0.3);
+  transition: box-shadow 0.3s;
+}
+
+.projectButton {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  width: 30ch;
+}
+.projectButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }

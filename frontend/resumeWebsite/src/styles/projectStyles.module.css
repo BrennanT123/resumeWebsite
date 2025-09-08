@@ -123,6 +123,7 @@
   width: 365px;
   border-radius: 2rem;
   overflow: hidden;
+  height: 100%;
 }
 
 .cubeSolverImg {

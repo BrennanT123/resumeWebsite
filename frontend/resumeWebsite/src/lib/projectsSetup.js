@@ -16,7 +16,7 @@ const blogAPI = {
   githubLink: "https://github.com/BrennanT123/blogAPI",
   previewLink: "https://frontend-production-c81e.up.railway.app/",
   media:
-    "https://res.cloudinary.com/dgngynk3j/image/upload/v1751394547/Screenshot_from_2025-07-01_14-05-41_nheo9c.png",
+    "Screenshot from 2026-01-07 20-51-13.webp",
   title: "Blog API",
   readMe:
     "\n" +
@@ -38,7 +38,7 @@ const wheresWaldo = {
     "\n" +
     'This is a charcter finding game similar to the common childrens book "Wheres Waldo". This game includes score tracking, leaderboards, session tracking, guess logic, and more. \n \n',
   media:
-    "https://res.cloudinary.com/dgngynk3j/image/upload/v1751394940/Screenshot_from_2025-07-01_14-35-19_gbn1rp.png",
+    "/Screenshot_from_2025-07-01_14-35-19_ntpx3q.webp",
   tags: ["node-js", "Express", "React", "Prisma", "Jest", "Supertest"],
 };
 
@@ -49,7 +49,7 @@ const resumeWebsite = {
   title: "Resume Website",
   readMe:
     "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to expand it to display all my achievements beyond just app development.",
-  media: "/resumeWebsite.png",
+  media: "/resumeWebsite.webp",
   tags: [
     "React",
     "CSS",
@@ -76,7 +76,7 @@ const rubiksCubeTimer = {
     previewLink: "https://cubetimer.up.railway.app/",
     title: "Rubiks Cube Timer",
     readMe: "This is a timer that I made for tracking how fast I can solve a rubiks cube. It uses sessions to track individual users solve time. I include a paginated table, a chart, and a totals/averages section to help analyze the data. This project utilizes React for the frontend, express for the backened, jest/supertest for testing, and postgresql for the database. \n \n The app seeds each session with data to help get an understanding of how it works. \n",
-    media: "/cubeTimer.png",
+    media: "/cubeTimer.webp",
     tags: ["React", "Canvas", "Bootstrap", "Mobile Friendly", "Data vizualization", "Data analysis", "Jest", "Supertest"],
 }
 /*

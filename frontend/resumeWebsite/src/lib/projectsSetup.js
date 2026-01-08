@@ -48,7 +48,7 @@ const resumeWebsite = {
   previewLink: "https://brennanturi-production.up.railway.app",
   title: "Resume Website",
   readMe:
-    "This is the website that you are currently viewing. Although I originally made it to display my App Dev journey, I plan to expand it to display all my achievements beyond just app development.",
+    "This website showcases my projects and experience and is built with React. It features a mobile-responsive design, animations, and a dynamic project gallery. Through this project, I gained hands-on experience optimizing frontend performance by analyzing network bottlenecks and improving load times under throttled network conditions. \n \n",
   media: "/resumeWebsite.webp",
   tags: [
     "React",

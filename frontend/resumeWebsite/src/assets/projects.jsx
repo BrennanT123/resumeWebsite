@@ -151,7 +151,10 @@ function Projects() {
                         <div className={projectStyles.tags}>
                           {project.tags.map((tag) => {
                             return (
-                              <div className={projectStyles.projectTag} key={tag}>
+                              <div
+                                className={projectStyles.projectTag}
+                                key={tag}
+                              >
                                 {tag}
                               </div>
                             );
@@ -161,9 +164,13 @@ function Projects() {
                     </div>
                     <div className={projectStyles.videoContainer}>
                       <iframe
-                        src="https://www.youtube.com/embed/MLUwZFfl92Y"
+                        src="https://www.youtube-nocookie.com/embed/MLUwZFfl92Y"
+                        title="YouTube video"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
                         className={projectStyles.embededVideo}
-                      ></iframe>
+                      />
                     </div>
                     {/* <img
                       src={project.media}
@@ -184,7 +191,9 @@ function Projects() {
                 }`}
               >
                 <div className={projectStyles.infoContainer}>
-                  <h2 className={projectStyles.projectTitle}>{project.title}</h2>
+                  <h2 className={projectStyles.projectTitle}>
+                    {project.title}
+                  </h2>
                   <pre className={projectStyles.projectReadme}>
                     {project.readMe}
                   </pre>

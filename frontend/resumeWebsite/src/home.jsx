@@ -8,7 +8,7 @@ import About from "./assets/about.jsx";
 import ContactMe from "./assets/contact.jsx";
 import Resume from "./assets/resume.jsx";
 import AboutSkills from "./assets/aboutSkills.jsx";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import Canvas from "../src/lib/webCanvas.jsx";
 
 function Home() {

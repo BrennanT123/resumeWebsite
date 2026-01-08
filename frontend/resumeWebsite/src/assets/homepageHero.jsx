@@ -1,6 +1,5 @@
 import introStyles from "../styles/introStyles.module.css";
 
-import { useRef } from "react";
 function HomepageHero() {
 
 

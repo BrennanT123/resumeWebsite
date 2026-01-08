@@ -1,16 +1,15 @@
-import { useEffect, useState } from "react";
+import  { useState } from "react";
 import projectStyles from "../styles/projectStyles.module.css";
 // import axios from "axios";
 // import getGithubInfo from "../lib/githubFunctions";
 import { Link } from "react-router-dom";
 import { projects } from "../lib/projectsSetup";
-import contactStyles from "../styles/contactStyles.module.css";
 
 // const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 function Projects() {
   const [activeProject, setActiveProject] = useState(1);
-  const [activeButton, setActiveButton] = useState(null);
+
   // was used when i had the projects stored in the backend, however i decided to keep it all locally.
 
   //const [projects, setProjects] = useState([]);

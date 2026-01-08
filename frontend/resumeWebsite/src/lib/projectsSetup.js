@@ -66,7 +66,7 @@ const rubiksCubeSolver = {
   title: "Rubiks Cube Solver",
   readMe:
     "This is a Rubiks Cube Solver that I made. It utilizes an arduino to control stepper motors and an input keypad. The state is then sent the computer via serial where a python script determines the optimal solution. The solution is then sent back to the arduino which turns the motors to solve the cube.",
-  media: "/rubiks_cube_solver.png",
+  media: "/rubiks_cube_solver.webp",
   tags: ["Arduino", "Python", "C++", "Data Structures", "Algorithms"],
 };
 

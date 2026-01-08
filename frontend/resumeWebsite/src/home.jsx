@@ -27,7 +27,7 @@ function Home() {
       {" "}
       <Navi></Navi>
       <div id="websiteContainer" onMouseMove={handleMouseMove}>
-        <div id="noiseOverlay"> </div>
+        {/* <div id="noiseOverlay"> </div> */}
         <div className="topSection">
           <div ref={containerRef} className="homeOverContainer">
             <Canvas containerRef={containerRef} mouseRef={mouseRef}></Canvas>

@@ -163,15 +163,31 @@ function Projects() {
                       </div>
                     </div>
                     <div className={projectStyles.videoContainer}>
-                      <iframe
+                      {/* <iframe
                         src="https://www.youtube-nocookie.com/embed/MLUwZFfl92Y"
                         title="YouTube video"
                         loading="lazy"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         className={projectStyles.embededVideo}
-                      />
+                      /> */}
                     </div>
+
+                    <Link
+                      className={projectStyles.projectLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      to="https://www.youtube.com/shorts/MLUwZFfl92Y"
+                    >
+                      <div className={projectStyles.imageContainer}>
+                        <img
+                          src={project.media}
+                          alt={`${project.title} preview`}
+                          className={projectStyles.projectImg}
+                        />
+                      </div>
+                      Click image for preview
+                    </Link>
                     {/* <img
                       src={project.media}
                       alt="Rubiks Cube Solver preview"
